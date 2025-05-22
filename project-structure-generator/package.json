@@ -1,0 +1,40 @@
+{
+    "name": "project-structure-generator",
+    "version": "1.0.0",
+    "description": "📁 Automatic project structure generator for documentation",
+    "main": "index.js",
+    "bin": {
+      "generate-structure": "./bin/generate-structure.js",
+      "project-structure": "./bin/generate-structure.js"
+    },
+    "scripts": {
+      "test": "node bin/generate-structure.js",
+      "start": "node bin/generate-structure.js",
+      "demo": "node bin/generate-structure.js --help"
+    },
+    "keywords": [
+      "project",
+      "structure",
+      "documentation",
+      "tree",
+      "generator",
+      "directory",
+      "files",
+      "markdown",
+      "cli"
+    ],
+    "author": "samoletek",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/samoletek/project-structure-generator.git"
+    },
+    "bugs": {
+      "url": "https://github.com/samoletek/project-structure-generator/issues"
+    },
+    "homepage": "https://github.com/samoletek/project-structure-generator#readme",
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "preferGlobal": true
+  }
